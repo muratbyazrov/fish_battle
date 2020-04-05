@@ -1,0 +1,167 @@
+.body {
+    display: flex;
+    background-color: aqua;
+}
+
+.main-window {
+    position: relative;
+    width: 95vw;
+    height: 85vh;
+    margin: 20px auto;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(./images/поле4.jpg);
+    background-size: cover;
+    z-index: -2;
+    opacity: 1;
+}
+
+.main-window_active {
+    opacity: 1;
+}
+
+.win-window{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    max-width: 50vw;
+    max-height: 60vh;
+    border-radius: 20px;
+    display: none;
+    flex-direction: column;
+    background-color: aqua;
+    z-index: 10;
+    padding: 10px;
+}
+
+.win-activeWindow{
+    display: flex;
+}
+
+.win-window__text{
+    margin: auto;
+}
+
+.win-window__image{
+    margin: 5% auto 5%;
+    width: 50%;
+}
+
+
+.choice-win{
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    height: 40vh;
+    width: 40vw;
+    left: 50%;
+    top:50%;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    z-index: 10;  
+}
+
+.choice-win_deactive{
+    display: none;
+}
+
+
+.choice-win__button {
+    margin: auto;
+    border: #01508b;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 6px 7px #01508b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.choice-win__button:hover{
+    box-shadow: 3px 3px 4px #01508b;
+    cursor: pointer;
+}
+
+
+.catch{
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    height: 50vh;
+    width: 40vw;
+    left: 50%;
+    top:50%;
+    border-radius: 20px;
+    display: none;
+    flex-direction: column;
+    background-color: aqua;
+    z-index: 10;
+    padding: 10px;
+}
+
+.catch_active{
+    display: flex;
+}
+
+.catch__text{
+    margin: auto;
+    text-align: center;
+}
+
+.catch__image{
+    margin: 5% auto 5%;
+    width: 50%;
+    max-height: 80%;
+}
+
+
+
+.user-box {
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/рыбка3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    border-radius: 50px;
+    text-align: center;
+    z-index: -1;
+}
+
+.newUser-box {
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/рыбка4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 60%;
+    left: 60%;
+    border-radius: 50px;
+    text-align: center;
+    z-index: -1;
+}
+
+.mirror{
+    transform: scale(-1, 1);
+}
+
+.food {
+    background-color: red;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
