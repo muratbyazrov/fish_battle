@@ -1,5 +1,4 @@
 # fish_battle
-## Это игрушка номер 2!
 ### Используемые технологии: JS, HTML, CSS. Без каких-либо библиотек. 
 
 [Поиграть можно тут](https://muratbyazrov.github.io/fish_battle/)
